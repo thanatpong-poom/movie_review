@@ -27,7 +27,7 @@ variable "thanutpongpoom@gmail.com" {
 }
 
 ## Your repository url
-variable "https://github.com/thanatpong-poom/movie_review" {
+variable "https://github.com/thanatpong-poom/movie_review.git" {
   description = "Repository url to clone into production machine"
   type        = string
   default     = "https://github.com/josephmachado/data_engineering_project_template.git"
