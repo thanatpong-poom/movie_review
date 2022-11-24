@@ -20,14 +20,14 @@ variable "instance_type" {
 }
 
 ## Alert email receiver
-variable "alert_email_id" {
+variable "thanutpongpoom@gmail.com" {
   description = "Email id to send alerts to "
   type        = string
   default     = "joseph.machado@startdataengineering.com"
 }
 
 ## Your repository url
-variable "repo_url" {
+variable "https://github.com/thanatpong-poom/movie_review" {
   description = "Repository url to clone into production machine"
   type        = string
   default     = "https://github.com/josephmachado/data_engineering_project_template.git"
